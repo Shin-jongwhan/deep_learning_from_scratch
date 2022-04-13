@@ -21,7 +21,8 @@ else :
 ```
 #### 특정 threshold를 넘으면 1을 출력하는 함수
 ### sigmoid (s자 모양)
-- h(x) = 1 / (1 + exp(-x)), exp는 자연상수 e = 2.7182...
+- h(x) = 1 / (1 + exp(-x))
+* exp는 자연상수 e = 2.7182...
 #### x가 커질 수록 1로 수렴, 작아질 수록 0으로 수렴한다.
 #### 
 <div align="center"><img src="https://github.com/Shin-jongwhan/deep_learning_from_scratch/blob/master/ch3_sigmoid_and_setp_func.png" width="50%" height="50%"><br/></div>
