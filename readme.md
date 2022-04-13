@@ -75,5 +75,10 @@ B3 = np.array( [0.1, 0.2] )
 Y = np.dot(Z2, W3) + B3
 print(Y)
 ```
+### 항등 함수와 소프트맥스 함수
+* 항등 함수 : a = b와 같이 입력과 출력이 같은 함수. 회귀(regression)에 이용한다. 회귀란 예측 결괏값이 연속적인 수치를 이야기한다. 사진 속 인물의 몸무게 예측과 같은 것에 쓰인다.
+* 소프트맥스 함수 : 분류(classification)에 쓰인다.
+![image](https://user-images.githubusercontent.com/62974484/163237042-80f354ee-8fdd-4358-8812-2862fc0d2de1.png)
+
 
 ### <br/><br/><br/>
