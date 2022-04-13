@@ -4,16 +4,18 @@
 ### 단층 논리회로
 #### AND, NAND, OR
 ### 다층 논리회로
-#### XOR
+#### XOR = AND(OR, NAND)
 
 ## chapter 3
 ### step function (계단 함수)
+#### b : bias라고 하며 b = -threshold 이다.
+#### w : weight, x값에 대한 가중치이다.
 ```
 tmp = b + w1*x1 + w2*x2
 if tmp <= 0 : 
-  return 0
+    return 0
 else : 
-  return 1
+    return 1
 ```
 #### 특정 threshold를 넘으면 1을 출력하는 함수
 ### sigmoid (s자 모양)
