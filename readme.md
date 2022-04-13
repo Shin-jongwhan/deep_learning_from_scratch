@@ -6,6 +6,8 @@
 ### 다층 논리회로
 #### XOR = AND(OR, NAND)
 
+### <br/><br/><br/>
+
 ## chapter 3
 ### step function (계단 함수)
 #### b : bias라고 하며 b = -threshold 이다.
@@ -23,3 +25,5 @@ else :
 #### x가 커질 수록 1로 수렴, 작아질 수록 0으로 수렴한다.
 #### 
 <div align="center"><img src="https://github.com/Shin-jongwhan/deep_learning_from_scratch/blob/master/ch3_sigmoid_and_setp_func.png" width="50%" height="50%"><br/></div>
+
+### <br/><br/><br/>
